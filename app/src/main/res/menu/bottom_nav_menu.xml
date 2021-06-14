@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/ic_home"
+        android:icon="@drawable/ic_home_verde24"
+        android:title="Home"/>
+
+    <item android:id="@+id/ic_favorito"
+        android:icon="@drawable/ic_favorite_verde24"
+        android:title="Favoritos"/>
+
+    <item android:id="@+id/ic_carrinho"
+        android:icon="@drawable/ic__shopping_cart_verde24"
+        android:title="Carrinho"/>
+
+    <item android:id="@+id/ic_login"
+        android:icon="@drawable/ic_baseline_login_24"
+        android:title="Login"/>
+
+    <item android:id="@+id/ic_mais"
+        android:icon="@drawable/ic_more_verde24"
+        android:title="Mais"/>
+</menu>
