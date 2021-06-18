@@ -4,16 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".CadastraClienteActivity">
-
-    <include
-        android:id="@+id/ToolBar"
-        layout="@layout/toolbar"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    tools:context=".AtualizaClienteActivity">
 
     <ScrollView
         android:id="@+id/scrollView2"
@@ -28,7 +19,7 @@
             android:orientation="vertical">
 
             <EditText
-                android:id="@+id/editTextCadPetNome"
+                android:id="@+id/editTextAttCliNome"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="30dp"
@@ -39,7 +30,7 @@
                 android:textSize="30dp" />
 
             <EditText
-                android:id="@+id/editTextCadPetNascimento"
+                android:id="@+id/editTextAttCliNascimento"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="30dp"
@@ -50,7 +41,7 @@
                 android:textSize="30dp" />
 
             <EditText
-                android:id="@+id/editTextCadCliCpf"
+                android:id="@+id/editTextAttCliCpf"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="30dp"
@@ -61,7 +52,7 @@
                 android:textSize="30dp" />
 
             <EditText
-                android:id="@+id/editTextCadCliCelular"
+                android:id="@+id/editTextAttCliCelular"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="30dp"
@@ -72,7 +63,7 @@
                 android:textSize="30dp" />
 
             <EditText
-                android:id="@+id/editTextCadCliLogradouro"
+                android:id="@+id/editTextAttCliLogradouro"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="30dp"
@@ -83,7 +74,7 @@
                 android:textSize="30dp" />
 
             <EditText
-                android:id="@+id/editTextCadCliNumero"
+                android:id="@+id/editTextAttCliNumero"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="30dp"
@@ -94,7 +85,7 @@
                 android:textSize="30dp" />
 
             <EditText
-                android:id="@+id/editTextCadCliCep"
+                android:id="@+id/editTextAttCliCep"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="30dp"
@@ -105,7 +96,7 @@
                 android:textSize="30dp" />
 
             <EditText
-                android:id="@+id/editTextCadCliEstado"
+                android:id="@+id/editTextAttCliEstado"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="30dp"
@@ -116,7 +107,7 @@
                 android:textSize="30dp" />
 
             <EditText
-                android:id="@+id/editTextCadCliCidade"
+                android:id="@+id/editTextAttCliCidade"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="30dp"
@@ -127,14 +118,22 @@
                 android:textSize="30dp" />
 
             <Button
-                android:id="@+id/btnCadastrarCliente"
+                android:id="@+id/btnAtualizarCliente"
                 android:layout_width="202dp"
                 android:layout_height="53dp"
                 android:layout_marginLeft="180dp"
-                android:text="Cadastrar"
+                android:text="Atualizar"
                 android:textSize="20dp" />
 
         </LinearLayout>
     </ScrollView>
 
+    <include
+        android:id="@+id/ToolBar"
+        layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
