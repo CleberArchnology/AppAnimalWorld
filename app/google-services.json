@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "684727565302",
+    "firebase_url": "https://appcerto-8349e-default-rtdb.firebaseio.com",
+    "project_id": "appcerto-8349e",
+    "storage_bucket": "appcerto-8349e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:684727565302:android:0999a2a163496350e0e5d7",
+        "android_client_info": {
+          "package_name": "com.example.appanimaworld"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "684727565302-mg0hhi8r2l9gst7b17qa2f3go46j796k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHH2HIVRBRIb2FELXUwUcdp1qI-LZKpOY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "684727565302-mg0hhi8r2l9gst7b17qa2f3go46j796k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
